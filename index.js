@@ -12,3 +12,7 @@ function nameToAttributes(array) {
            });
   return obj;
 }
+
+function attributesToPhrase(array) {
+  var new_array = array.map(x => x.name + " is from " + x.hometown)
+}
